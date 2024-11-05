@@ -98,3 +98,37 @@ footer > div > img {
    width: 20px;
    height: 20px;
 }
+
+.button-color {
+    color: white !important;
+    background-color:rgb(126, 73, 14) !important;
+}
+
+.recomended-books-wrapper {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(126, 73, 14);
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+.recomended-books {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color:  rgb(126, 73, 14);
+}
+
+.recomended-books > div {
+    width: 100%;
+    height: 100%;
+}
+
+.recomended-books > div  > img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+

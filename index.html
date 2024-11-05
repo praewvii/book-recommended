@@ -21,7 +21,7 @@
                 <p style="margin-bottom: 0px">discover</p>
                 <input type="text" placeholder="Search by title, author or keyboard" class="header-content-input"/>
             </div>
-                <p style="margin-bottom: 0px">Log in</p>
+            <a target="_blank" style="margin-bottom: 0px; text-decoration: none; color: white;" href="https://www.google.com/">Log in</p>
             </div>
 
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -53,40 +53,64 @@
                  </div>
             </div>
 
-            <div class="col flex">
-                <div>
-                    <div>
-                        <div class="font-style">
-                        <h3>Harry Potter</h3>
-                        <h6>By J.K. Rowling</h6>
-                        <p>Harry Potter and the Sorcerer's Stone เล่าเรื่องราวของเด็กชายชื่อว่า แฮร์รี่ พอตเตอร์ ที่เติบโตมาในครอบครัวของพ่อแม่บุญธรรมที่โหดร้าย หลังจากได้รับจดหมายจากโรงเรียนเวทมนตร์ฮอกวอตส์ เขาได้ค้นพบว่าเขาคือผู้มีเวทมนตร์ และเริ่มต้นการผจญภัยที่เปลี่ยนแปลงชีวิตของเขาไปตลอดกาล
-                        ในโรงเรียนฮอกวอตส์ </p> 
-                        </div>
+            <div class="col">
+                <p class="d-inline-flex gap-1">
+                    <button class="btn button-color" type="button" data-bs-toggle="collapse" data-bs-target="#harryPotter" aria-expanded="false" aria-controls="harryPotter">
+                        เรื่องย่อ
+                    </button>
+                    <button class="btn button-color" type="button" data-bs-toggle="collapse" data-bs-target="#rowling" aria-expanded="false" aria-controls="rowling">
+                        ผู้แต่ง
+                    </button>
+                    <button class="btn button-color" type="button" data-bs-toggle="collapse" data-bs-target="#mainPart" aria-expanded="false" aria-controls="mainPart">
+                        ประเด็นหลัก
+                    </button>
+                  </p>
+                  <div class="collapse" id="harryPotter">
+                    <div class="card card-body button-color">
+                        Harry Potter and the Sorcerer's Stone เล่าเรื่องราวของเด็กชายชื่อว่า แฮร์รี่ พอตเตอร์ ที่เติบโตมาในครอบครัวของพ่อแม่บุญธรรมที่โหดร้าย หลังจากได้รับจดหมายจากโรงเรียนเวทมนตร์ฮอกวอตส์ เขาได้ค้นพบว่าเขาคือผู้มีเวทมนตร์ และเริ่มต้นการผจญภัยที่เปลี่ยนแปลงชีวิตของเขาไปตลอดกาล
+                        ในโรงเรียนฮอกวอตส์ 
                     </div>
-                    <div>
-                        <div class="font-style">
-                            <h3>J.K. Rowling</h3>
-                            <p>เป็นนักเขียนชาวอังกฤษที่มีชื่อเสียงจากการสร้างสรรค์โลกเวทมนตร์ในซีรีส์ Harry Potter ซึ่งประกอบด้วยหนังสือ 7 
-                                เล่มที่เล่าเรื่องราวของเด็กชายผู้มีเวทมนตร์ชื่อ แฮร์รี่ พอตเตอร์ และการผจญภัยของเขาที่โรงเรียนฮอกวอตส์</p>
-                            
-                        </div>
+                  </div>
+                  <div class="collapse" id="rowling">
+                    <div class="card card-body button-color">
+                        เป็นนักเขียนชาวอังกฤษที่มีชื่อเสียงจากการสร้างสรรค์โลกเวทมนตร์ในซีรีส์ Harry Potter ซึ่งประกอบด้วยหนังสือ 7 
+                        เล่มที่เล่าเรื่องราวของเด็กชายผู้มีเวทมนตร์ชื่อ แฮร์รี่ พอตเตอร์ และการผจญภัยของเขาที่โรงเรียนฮอกวอตส์
                     </div>
-                </div>
-                <div>
-                    <div >
-                        <div class="font-style">
-                            <h3>ประเด็นหลัก</h3>
-                            <p> หนังสือเล่มนี้สำรวจเรื่องราวเกี่ยวกับมิตรภาพ การเติบโต การค้นหาตนเอง และความสำคัญของการเลือกทางเดินในชีวิต 
-                                นอกจากนี้ยังมีการสร้างโลกเวทมนตร์ที่น่าหลงใหลและตัวละครที่น่าจดจำ ทำให้เป็นจุดเริ่มต้นที่ยอดเยี่ยมสำหรับแฟนคลับของหนังสือและภาพยนตร์แฟนตาซี</p>
-                        </div>   
+                  </div>
+                  <div class="collapse" id="mainPart">
+                    <div class="card card-body button-color">
+                        หนังสือเล่มนี้สำรวจเรื่องราวเกี่ยวกับมิตรภาพ การเติบโต การค้นหาตนเอง และความสำคัญของการเลือกทางเดินในชีวิต 
+                        นอกจากนี้ยังมีการสร้างโลกเวทมนตร์ที่น่าหลงใหลและตัวละครที่น่าจดจำ ทำให้เป็นจุดเริ่มต้นที่ยอดเยี่ยมสำหรับแฟนคลับของหนังสือและภาพยนตร์แฟนตาซี
                     </div>
-                </div>
-
+                  </div>
             </div>
-    
-    
         </div>
 
+        <div class="recomended-books-wrapper">
+            <h1 >หนังสือที่แนะนำ</h1>
+            <div class="recomended-books">
+                <div>
+                    <img src="./images/phenix.jpeg" alt="" class="img-fluid"></img>
+                    <p>แฮร์รี่ พอตเตอร์กับภาคีนกฟีนิกซ์</p>
+                </div>
+                <div>
+                    <img src="./images/death.jpg" alt="" class="img-fluid"></img>
+                    <p>แฮร์รี่ พอตเตอร์กับเครื่องรางยมทูต</p>
+                </div>
+                <div>
+                    <img src="./images/az.jpg" alt="" class="img-fluid"></img>
+                    <p>แฮร์รี่ พอตเตอร์กับนักโทษแห่งอัซคาบัน</p>
+                </div>
+                <div>
+                    <img src="./images/chamber-of-secrets-668x1024.jpg" alt="" class="img-fluid"></img>
+                    <p>แฮร์รี่ พอตเตอร์กับห้องแห่งความลับ</p>
+                </div>
+                <div>
+                    <img src="./images/prince.jpg" alt="" class="img-fluid"></img>
+                    <p>แฮร์รี่ พอตเตอร์กับเจ้าชายเลือดผสม</p>
+                </div>
+            </div>
+        </div>
 
         </div>
         
